@@ -1,0 +1,21 @@
+spring:
+  application:
+    name : spring-cloud-eureka
+server :
+  port : 8000
+
+
+#设置与Eureka Server交互的地址，查询服务和注册服务都需要依赖这个地址。默认是http://localhost:8761/eureka ；多个地址可使用 , 分隔
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    register-with-eureka : false  #是否把自身注册为服务 默认为true
+    fetch-registry : false  #是否拉取服务列表 默认为true
+
+    serviceUrl:
+      defaultZone : http://localhost:8000/eureka/    #这里IP先设置为localhost ，后期 配置nginx 后可改为nginx的域,eureka 的集群配置是把多个节点交叉配置就可以  比如当前节点为8000  eureka 配置为 8001
+
+
+
+

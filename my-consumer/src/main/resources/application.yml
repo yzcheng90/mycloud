@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-cloud-consumer
+
+server:
+  port: 9001
+
+#Feign中已经依赖了Hystrix
+feign:
+  hystrix:
+    enabled : true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/

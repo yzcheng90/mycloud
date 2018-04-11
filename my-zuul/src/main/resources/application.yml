@@ -1,0 +1,21 @@
+spring:
+  application:
+    name : spring-cloud-zuul
+server:
+  port : 8888
+
+
+zuul:
+  routes:
+    api-a:
+      path : /producer/**                                 #网关地址
+      serviceId : spring-cloud-producer                  #代理到对应的服务
+    api-b:
+      path : /consumer/**                                 #网关地址
+      serviceId : spring-cloud-consumer                  #代理到对应的服务
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone : http://localhost:8000/eureka/

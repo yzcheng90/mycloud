@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active : peer1
+
+# eureka 集群配置看blog
+#http://www.ityouknow.com/springcloud/2017/05/10/springcloud-eureka.html
+
+#server:
+#  port : 8000
+#
+#spring:
+#  application:
+#    name : spring-cloud-eureka
+#eureka:
+#  client:
+#     register-with-eureka : false
+#     fetch-registry : false
+#     serviceUrl:
+#        defaultZone : http://localhost:${server.port}/eureka/
