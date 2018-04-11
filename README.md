@@ -1,7 +1,12 @@
 # mycloud
 spring cloud + eureka +zuul +hystrix + 集群 微服务开发框架
 
-```学习记录```
+**使用版本：** 
+- Spring Boot 1.5.9
+- Spring Cloud Dalston.RELEASE
+
+
+***学习记录***
 
 启动步骤
 1、my-eureka        MyEurekaApplication.java 启动
@@ -20,4 +25,11 @@ eureka集群
 producer集群  
 1、只须要复制my-producer 一份改一个端口即可
 2、访问http://localhost:8000/ 可看到 my-producer有两个服务 eureka 自动负载均衡
+
+
+
+
+
+一起学习的可以加QQ群：17470566
+本人QQ：913624256
 
