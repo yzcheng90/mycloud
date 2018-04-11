@@ -38,6 +38,16 @@ spring cloud + eureka +zuul +hystrix + 集群 微服务开发框架
 
 
 
-一起学习的可以加QQ群：17470566 <br>
-本人QQ：913624256
+***学习博客***
+
+- <a href="http://www.ityouknow.com">纯洁的微笑</a> 
+- <a href="http://blog.didispace.com/categories/Spring-Cloud">程序猿DD</a>
+- <a href="https://blog.csdn.net/column/details/15197.html">方志朋 Spring Cloud 专栏</a>
+- <a href="http://xujin.org/categories/%E8%B7%9F%E6%88%91%E5%AD%A6Spring-Cloud/">许进 跟我学Spring Cloud</a>
+
+
+
+- 这个项目会持续更新记录学习，对你有帮助的可以给个star <br>
+- 一起学习的可以加QQ群：17470566 <br>
+- 本人QQ：913624256
 
